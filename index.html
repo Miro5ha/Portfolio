@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моё портфолио</title>
+</head>
+<body>
+    <div class="header">
+        <section class="header-title">
+            <p class="header-title-text">Меня зовут Мироншох Кувандиков.</p>
+        </section>
+        <section class="header-main">
+            <p class="header-main-text">Мне 14 лет. <br> Начал учиться на платформе онлайн обучения GeekSchool 18 февраля 2024 года. <br> Обучение закончу 6 октября 2024 года. <br> В моём портфолио должно быть 6 работ (включая эту). <br> Планирую использовать этот проэкт как свой настоящий портфолио, поэтому со временем будет добовляться сюда информация!</p>
+        </section>
+    </div>
+    <div class="swiper-header">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/swiper-img/Углуб.веб. Макет для 1го модуля.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/swiper-img/Section 1.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/swiper-img/Многостраничный сайт.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/swiper-img/explorer.svg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/swiper-img/photo_2024-09-29_17-54-11.jpg" alt="">
+            </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            });
+        </script>
+  </div>
+  <div class="main">
+    <div class="game-site">
+        <div class="game-site-content">
+            <a href="https://miro5ha.github.io/Game-site/" class="game-site-title">Игровой сайт</a>
+            <div class="game-site-text">
+                <p class="game-site-under-title-1">Многостраничный сайт</p>
+                <p class="game-site-under-title">Имеет статьи по трём играм таким как "Dota 2" "Fortnite" "GTA 5"</p>
+            </div>
+        </div>
+        <div class="game-site-img-container">
+            <img src="img/swiper-img/Многостраничный сайт.svg" alt="" class="game-site-img">
+        </div>
+    </div>
+    <div class="woodendot">
+        <div class="woodendot-img-container">
+            <img src="img/woodendot.svg" alt="" class="woodendot-img">
+        </div>
+        <div class="woodendot-content">
+            <a href="https://miro5ha.github.io/Woodendot/" class="woodendot-title">Сайт магазина мебели</a>
+            <div class="woodendot-text">
+                <p class="woodendot-under-title-1">Жанр "Landing page"</p>
+                <p class="woodendot-under-title">Первый сайт которыйй я сделал сам за неделю по макету</p>
+            </div>
+        </div>
+    </div>
+        <div class="explorer">
+            <div class="explorer-content">
+                <a href="https://miro5ha.github.io/Explorer/" class="explorer-title">Читательский блог</a>
+                <div class="explorer-text">
+                    <p class="explorer-under-title-1">Сайт командной разработки</p>
+                    <p class="explorer-under-title">Этот сайт я делал в команде, но конкретно что я сделал</p>
+                    <p class="explorer-under-title-2">это: тело или же "main" и подвал или же "footer",</p>
+                    <p class="explorer-under-title-3">ну и сделал начало в шапке ("header")</p>
+                </div>
+            </div>
+            <div class="explorer-img-container">
+                <img src="img/swiper-img/explorer.svg" alt="" class="explorer-img">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="links">
+            <div class="links-title-container">
+                <p class="links-title">Все ссылки на мои работы</p>
+            </div>
+            <a href="https://miro5ha.github.io/Site-Disney/" class="footer-link">Disney</a>
+            <a href="https://miro5ha.github.io/Site-visitka/"class="footer-link">Сайт визитка</a>
+            <a href="https://miro5ha.github.io/Moy-site-visitka/"class="footer-link">Мой сайт визитка</a>
+            <a href="https://miro5ha.github.io/Game-site/"class="footer-link">Игровой сайт</a>
+            <a href="https://miro5ha.github.io/Explorer/"class="footer-link">Explorer</a>
+            <a href="https://miro5ha.github.io/Woodendot/"class="footer-link">Woodendot</a>
+        </div>
+    </div>
+  </div>
+    <div class="avatar-logo">
+        <img src="img/avatar-photo/photo_2022-10-26_22-27-49.jpg" width="44" alt="" class="avatar">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

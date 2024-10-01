@@ -1,0 +1,227 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header-title-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+.header-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.header-main{
+    margin-top: 15px;
+    background-image: url(img/background/tim-schmidbauer-TE_lOmkKq04-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 180px;
+}
+.header-main-text{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 180px;
+    color: white;
+}
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+.swiper {
+    width: 1500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-header{
+    margin-top: 50px;
+}
+.main{
+    margin-top: 15px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 50px;
+}
+.main-cards{
+    display: flex;
+    justify-content: center;
+}
+.main-cards img{
+    height: 150px !important;
+    width: fit-content !important;
+}
+.avatar-logo{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.avatar{
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+.game-site-img{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.game-site-img-container{
+    display: flex;
+    justify-content: flex-end;
+}
+.game-site-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24.5px;
+    margin-left: 300px;
+    color: black;
+}
+.game-site{
+    margin-top: 50px;
+}
+.game-site-content{
+    position: relative;
+    top: 300px;
+}
+.game-site-under-title{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.game-site-under-title-1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 300px;
+}
+.woodendot-img{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.woodendot{
+    margin-top: 25px;
+}
+.woodendot-img-container{
+    display: flex;
+    justify-content: flex-start;
+}
+.woodendot-title{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24.5px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 180px;
+}
+.woodendot-text{
+    text-align: end;
+}
+.woodendot-content{
+    position: relative;
+    bottom: 300px;
+}
+.woodendot-under-title-1{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 315px;
+}
+.woodendot-under-title{
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 45px;
+    margin-top: 25px;
+}
+.explorer-img{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.explorer-img-container{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 215px;
+    pointer-events: none;
+}
+.explorer-title{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24.5px;
+    margin-left: 240px
+}
+.explorer-under-title-1{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 270px;
+}
+.explorer-under-title{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 75px;
+    margin-top: 25px;
+}
+.explorer-under-title-2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 130px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 20px;
+}
+.explorer-under-title-3{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 205px;
+    margin-top: 25px;
+    position: relative;
+    bottom: 40px;
+}
+.explorer-content{
+    position: relative;
+    top: 100px;
+    margin-bottom: -75px;
+}
+.footer-link{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+}
+.links-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24.5px;
+    color: white;
+}
+.links{
+    text-align: center;
+    padding-top: 75px;
+}
+.footer{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    padding-bottom: 100px;
+    position: relative;
+    bottom: 235px;
+}
