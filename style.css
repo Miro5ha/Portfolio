@@ -171,11 +171,13 @@ body {
     color: #000;
     font-family: 'Montserrat', sans-serif;
     font-size: 24.5px;
-    margin-left: 240px
+    margin-left: 140px
 }
 .explorer-under-title-1{
     font-family: 'Montserrat', sans-serif;
     margin-left: 270px;
+    position: relative;
+    right: -3px;
 }
 .explorer-under-title{
     font-family: 'Montserrat', sans-serif;
